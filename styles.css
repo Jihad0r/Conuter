@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.counter{
+    transform: translate(50%, 50%);
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    text-align: center;
+}
+span{
+    padding: 5px 20px;
+    border:1px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+span:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .8s;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+}
+p+ div{
+    width: max-content;
+    margin-top: 20px;
+}
